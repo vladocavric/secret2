@@ -1,0 +1,12 @@
+<%- include("partials/header") %>
+<%- include("partials/nav") %>
+<div style="min-height: 350px; background: blue">
+    <h1>this is register page</h1>
+
+    <form action="/register" method="post">
+        <input type="text" name="username" id="username" placeholder="username">
+        <input type="password" name="password" id="password" placeholder="password">
+        <button>register</button>
+    </form>
+</div>
+<%- include("partials/footer") %>

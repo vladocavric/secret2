@@ -1,7 +1,12 @@
 <%- include("partials/header") %>
 <%- include("partials/nav") %>
+<div style="min-height: 350px; background: green">
+    <h1>this is login page</h1>
 
-<div style="background: green">
-    <h1>please login</h1>
+    <form action="/login" method="post">
+        <input type="text" name="username" id="username" placeholder="username">
+        <input type="password" name="password" id="password" placeholder="password">
+        <button>login</button>
+    </form>
 </div>
 <%- include("partials/footer") %>
